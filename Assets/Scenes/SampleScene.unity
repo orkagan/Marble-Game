@@ -123,6 +123,16 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &339984765 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 569909120, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+  m_PrefabInstance: {fileID: 1903830717714622615}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &614189477 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1742012542, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+  m_PrefabInstance: {fileID: 1903830717714622615}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &624871823
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,6 +195,11 @@ Transform:
 --- !u!108 &705507994 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 705507994, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+  m_PrefabInstance: {fileID: 1903830717714622615}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &786019435 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 112715808, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
   m_PrefabInstance: {fileID: 1903830717714622615}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &909456835
@@ -369,6 +384,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200707849}
   m_CullTransparentMesh: 1
+--- !u!4 &1292289818 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 402014061, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+  m_PrefabInstance: {fileID: 1903830717714622615}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1427935400 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 538753787, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+  m_PrefabInstance: {fileID: 1903830717714622615}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1558032691
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,6 +542,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1939759187 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 963194225, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+  m_PrefabInstance: {fileID: 1903830717714622615}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1939759189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939759187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d442dda1e6264e88f7e92c8270cc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  marbles:
+  - {fileID: 1427935400}
+  - {fileID: 786019435}
+  - {fileID: 614189477}
+  - {fileID: 2116563998}
+  - {fileID: 1292289818}
+  - {fileID: 339984765}
+  Offset: {x: 0, y: 10, z: -20}
+--- !u!4 &2116563998 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 95944097, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+  m_PrefabInstance: {fileID: 1903830717714622615}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1903830717714622615
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -528,6 +583,14 @@ PrefabInstance:
       propertyPath: _winnerText
       value: 
       objectReference: {fileID: 1200707851}
+    - target: {fileID: 963194228, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 963194228, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.06
+      objectReference: {fileID: 0}
     - target: {fileID: 237875507350131257, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
       propertyPath: m_Name
       value: Game World
