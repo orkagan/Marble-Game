@@ -24,8 +24,8 @@ public class TestScript
     public IEnumerator BelowDeathZone()
     {
         Rigidbody marble = MonoBehaviour.FindObjectOfType<Rigidbody>();
-        yield return new WaitForSeconds(10f);
-        Assert.Less(marble.transform.position.y, -17f);
+        yield return new WaitForSeconds(15f);
+        Assert.IsFalse(marble.transform.position.y < -17f);
     }
 
     [UnityTest]
