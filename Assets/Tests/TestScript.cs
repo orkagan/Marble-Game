@@ -20,6 +20,7 @@ public class TestScript
         Object.Destroy(_gameGO);
     }
     
+    //test that the marble does not go below -17f which is where the death zone should be to delete it
     [UnityTest]
     public IEnumerator BelowDeathZone()
     {
@@ -28,6 +29,7 @@ public class TestScript
         Assert.IsFalse(marble.transform.position.y < -17f);
     }
 
+    //test that the marble is falling by checking if its original position is higher than pos after 0.1 seconds
     [UnityTest]
     public IEnumerator MarbleFalls()
     {

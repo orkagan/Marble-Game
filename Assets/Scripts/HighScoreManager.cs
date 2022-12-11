@@ -16,7 +16,7 @@ public class HighScoreManager : MonoBehaviour
 
         timer = new Timer();
         highScore = saveSystem.Load();
-        hsText.text = "Highscore =" + highScore.score;
+        hsText.text = "Highscore: " + highScore.score;
         GameStarted();
     }
     private void Update()

@@ -337,10 +337,10 @@ RectTransform:
   m_Father: {fileID: 909456839}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -275.19482, y: 47.515015}
-  m_SizeDelta: {x: 313.6104, y: 318.97}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 213.80518, y: -205.48499}
+  m_SizeDelta: {x: 313.6104, y: 318.96997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1200707851
 MonoBehaviour:
@@ -469,10 +469,10 @@ RectTransform:
   m_Father: {fileID: 909456839}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 318, y: 169.92752}
-  m_SizeDelta: {x: 267.713, y: 98.145}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -171, y: -83.07248}
+  m_SizeDelta: {x: 267.713, y: 98.14499}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1577244880
 GameObject:
@@ -579,10 +579,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 95944100, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 59d3dc34108b13a4b8fd1be0c243f8a9, type: 2}
+    - target: {fileID: 112715811, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 59d3dc34108b13a4b8fd1be0c243f8a9, type: 2}
     - target: {fileID: 156265692, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
       propertyPath: _winnerText
       value: 
       objectReference: {fileID: 1200707851}
+    - target: {fileID: 348109664, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+      propertyPath: _speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 348109664, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+      propertyPath: spinRate
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 348109664, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+      propertyPath: maxSpinSpeed
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 348109666, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c7a2f4665967814098acb84fe27dda5, type: 2}
+    - target: {fileID: 402014064, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 59d3dc34108b13a4b8fd1be0c243f8a9, type: 2}
+    - target: {fileID: 538753790, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 59d3dc34108b13a4b8fd1be0c243f8a9, type: 2}
+    - target: {fileID: 569909123, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 59d3dc34108b13a4b8fd1be0c243f8a9, type: 2}
     - target: {fileID: 963194228, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.77
@@ -591,10 +627,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 3.06
       objectReference: {fileID: 0}
+    - target: {fileID: 1742012545, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 59d3dc34108b13a4b8fd1be0c243f8a9, type: 2}
     - target: {fileID: 237875507350131257, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
       propertyPath: m_Name
       value: Game World
       objectReference: {fileID: 0}
+    - target: {fileID: 1903830716277424421, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 59d3dc34108b13a4b8fd1be0c243f8a9, type: 2}
     - target: {fileID: 7491783125473186684, guid: 4972a29a7a96c7d45a9496fa8cb57629, type: 3}
       propertyPath: m_RootOrder
       value: 0
